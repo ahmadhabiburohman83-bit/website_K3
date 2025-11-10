@@ -3102,20 +3102,25 @@
 		}
 
 	}
-	/* Biar semua artikel di #one sejajar otomatis */
+	
+#three .flex,
 #one .flex {
-  align-items: stretch; /* semua kotak (article) sama tinggi */
+  align-items: stretch; 
 }
-
+#three article,
 #one article {
   display: flex;
-  flex-direction: column; /* biar tombol tetap di bawah */
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
+#three article footer,
 #one article footer {
-  margin-top: auto; /* tombol selalu nempel di bawah */
+  margin-top: auto; 
 }
-/* Biar semua gambar di section "three" punya ukuran sama */
+
+
 #three .image.fit img {
   width: 100%;
   height: 250px; /* kamu bisa ubah 250px jadi 200–300 sesuai tampilan */
