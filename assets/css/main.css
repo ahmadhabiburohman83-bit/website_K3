@@ -3127,10 +3127,8 @@
   object-fit: cover; /* biar gambar tidak ketarik tapi tetap penuh */
   border-radius: 10px; /* opsional, biar sudutnya lembut */
 }
-
-/* Menghilangkan jarak besar sebelum section three */
-#three.wrapper.special header {
-    margin-top: 0 !important;
+.flex.flex-2 + .flex.flex-2 {
+    margin-top: 50px;
 }
 
 
