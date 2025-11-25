@@ -3128,3 +3128,10 @@
   border-radius: 10px; /* opsional, biar sudutnya lembut */
 }
 
+/* Menghilangkan jarak besar sebelum section three */
+#three.wrapper.special header {
+    margin-top: 0 !important;
+}
+
+
+
